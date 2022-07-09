@@ -27,7 +27,7 @@
     background-color: var(--body-bg-color);
   }
   #news .container .right{
-    flex:1;
+    flex:1.5;
     background: url("src/assets//read_news.jpg");
     background-size:cover;
     background-position: 80%;

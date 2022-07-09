@@ -1,0 +1,130 @@
+:root {
+    --body-bg-color: #121214;
+    --text-color: #E1E1E6;
+    --title-color: #04D361;
+    --form-color: #A8A8A8;
+    --bg-button-color: #8257e5;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  #news{
+    width: 100vw;
+    height: 100vh;
+  }
+  #news .container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+
+  } 
+  #news .container .left{
+    padding: 36px;
+    flex:1;
+    background-color: var(--body-bg-color);
+  }
+  #news .container .right{
+    flex:1;
+    background: url("src/assets//read_news.jpg");
+    background-size:cover;
+    background-position: 80%;
+  }
+  .logo{
+    margin-top: 50px;
+    width:348px ;
+    height: 94px;
+  }
+  .info{
+    margin-top:92px ;
+    
+
+  }
+  .info h4{
+    font-family:'Merriweather Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: var(--title-color);
+  }
+  .info p{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 14px;
+    margin-top: 9px;
+    color: var(--text-color);
+  }
+  .p1{
+    font-family:'Merriweather Sans', sans-serif;
+    font-weight: 700;
+    color:var(--text-color) ;
+    font-size: 14px;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 51px;
+    gap: 51px;
+  }
+
+  .news{
+    
+    margin-top: 50px;
+  }
+  label{
+    
+    font-family:'Merriweather Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--text-color);
+    
+  }
+  input[type=email]{
+    padding: 0 30px;
+    width: 798px;
+    border: none;
+      border-left: 3px solid var(--title-color);
+    
+  }
+  .sendmail{
+    display: flex;
+    margin-bottom: 20px;
+    position: absolute;
+    margin-top: 19px;
+    
+   
+  }
+
+  button{
+    padding: 20px;
+    background: var(--bg-button-color);
+    border: none;
+    
+  }
+
+
+  .news:hover{
+    transform:scale(1.1);
+
+  }
+
+  .news2{
+    display: flex;
+    color: var(--bg-button-color);
+    text-decoration: none;
+    margin-top: 51px;
+  
+  }
+  .news2 img{
+    display: flex;
+    align-items: center;
+    
+
+    
+  }
+  #send{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
